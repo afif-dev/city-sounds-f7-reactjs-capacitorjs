@@ -1,0 +1,153 @@
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #b700ff;
+  --f7-theme-color-rgb: 183, 0, 255;
+  --f7-theme-color-shade: #9a00d6;
+  --f7-theme-color-tint: #c329ff;
+}
+:root .dark {
+  --f7-page-bg-color: #000000;
+}
+
+/* Your app custom styles here */
+html,
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.custom-splash {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.custom-splash .content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeInOut 3s ease-in-out 1s;
+}
+.custom-splash .content h3 {
+  font-weight: 300;
+  margin: 0;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    top: 52%;
+  }
+  20% {
+    opacity: 1;
+    top: 50%;
+  }
+  80% {
+    opacity: 1;
+    top: 52%;
+  }
+  100% {
+    opacity: 0;
+    top: 50%;
+  }
+}
+
+.top-0 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.bottom-0 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.home-title {
+  padding: 10px 0;
+  background: linear-gradient(to bottom, #ad5389, #3c1053 50%, #000000) no-repeat;
+}
+
+.link-card {
+  display: flex;
+  padding: 10px 0px 40px;
+  margin: 5px auto;
+  color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.link-card .img-container {
+  border-radius: 5px;
+  position: relative;
+  background: #b700ff;
+  padding: 3px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.link-card .img-container:focus,
+.link-card .img-container:active {
+  background: #fff;
+}
+
+.link-card .img-wrap {
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 3px solid #000000;
+  background-color: #000000;
+}
+
+.link-card .img-wrap img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+.link-card p {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: -6px;
+  display: block;
+}
+
+.music-player::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.music-player .audio-settings {
+  position: absolute;
+  width: 100%;
+  bottom: -40px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(146, 0, 175, 0.3);
+  padding: 20px 0 50px;
+}
+
+.music-player .timerOptions {
+  display: none;
+}
+
+.music-player .countdown {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+{
+  "appId": "net.c88i.citysound",
+  "appName": "City Sounds",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "androidScaleType": "CENTER_CROP",
+      "splashFullScreen": false,
+      "splashImmersive": false
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_name",
+      "iconColor": "#9a00d6"
+    }
+  },
+  "cordova": {}
+}

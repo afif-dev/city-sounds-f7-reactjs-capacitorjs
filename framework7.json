@@ -1,0 +1,21 @@
+{
+  "cwd": "D:\\laragon\\www\\tutorials\\capacitorjs\\city-sound",
+  "type": ["capacitor"],
+  "name": "City Sounds",
+  "framework": "react",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#b700ff",
+    "darkTheme": true,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "pkg": "net.c88i.citysound",
+  "capacitor": {
+    "platforms": ["ios", "android"]
+  }
+}

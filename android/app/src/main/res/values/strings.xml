@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">City Sounds</string>
+    <string name="title_activity_main">City Sounds</string>
+    <string name="package_name">net.c88i.citysound</string>
+    <string name="custom_url_scheme">net.c88i.citysound</string>
+</resources>
