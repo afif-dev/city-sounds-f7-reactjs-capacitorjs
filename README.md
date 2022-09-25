@@ -1,5 +1,12 @@
 # City Sounds
 
+## Screenshot
+
+![](/custom-splash-screen.jpg) ![](/home.jpg)
+![](/favourite.jpg) ![](/info-device.jpg)
+![](/music-player.jpg) ![](/music-player-with-timer)
+![](/music-player-timer.jpg)
+
 ## Framework7 CLI Options
 
 Framework7 app created with following options:
