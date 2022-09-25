@@ -68,6 +68,9 @@ const MusicPlayerPage = (props) => {
                 ],
               });
             },
+            onstop: function () {
+              LocalNotifications.removeAllDeliveredNotifications();
+            },
           });
           audio.current.fade(0.2, 1, 300);
           audio.current.play();
