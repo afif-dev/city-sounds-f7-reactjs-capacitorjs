@@ -1,4 +1,6 @@
-# City Sounds
+# City Sounds Hybrid Mobile App
+
+- Build with [Framework7](https://framework7.io/), [Framework7 React](https://framework7.io/react/), [CapacitorJS](https://capacitorjs.com/)
 
 ## Screenshot
 
