@@ -2,10 +2,10 @@
 
 ## Screenshot
 
-![](/custom-splash-screen.jpg) ![](/home.jpg)
-![](/favourite.jpg) ![](/info-device.jpg)
-![](/music-player.jpg) ![](/music-player-with-timer)
-![](/music-player-timer.jpg)
+![](/screenshots/custom-splash-screen.jpg) ![](/screenshots/home.jpg)
+![](/screenshots/favourite.jpg) ![](/screenshots/info-device.jpg)
+![](/screenshots/music-player.jpg) ![](/screenshots/music-player-with-timer)
+![](/screenshots/music-player-timer.jpg)
 
 ## Framework7 CLI Options
 
